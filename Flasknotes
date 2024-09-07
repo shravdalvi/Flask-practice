@@ -1,1 +1,11 @@
-# "flask --app hello run" is to run any program in python flask 
+# "(flask --app hello run)" is to run any program in python flask 
+# /__pycache__ use this to ignore any kinda git 
+# Terminal shortcut (python app.py)
+# Use bootstrap 
+   1] div class = "container"> shortcut "div.container"
+   2] div class = "container-fluid"> shortcut "div.container"
+# div class = "container"> 
+normal table type show
+# div class = "container-fluid">
+this takes all the width of the website 
+# 
