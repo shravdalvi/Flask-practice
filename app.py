@@ -1,25 +1,8 @@
 from flask import Flask, render_template
-app = Flask(__name__)
+app = Flask(__name__, template_folder="template")
 
 @app.route('/')
-def hello_world():
-  return render_template ('index.html')
-  #return 'Hello, World!'
-
-
-@app.route('/products')
-def products():
-    return 'if you move you are gay'
-    
-@app.route('/therefore')
-def therefore():
-    return 'i can do it'
-
-@app.route('/ElliotMiles')
-def ElliotMiles():
-    return 'why is he fictional? why?why?why?'
-
-
+def hello():
+  return render_template('index4.html')
 if __name__ == "__main__":
-   app.run(debug=True, port= 8000)
-    
+   app.run(debug=True)
